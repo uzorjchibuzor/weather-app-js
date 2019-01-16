@@ -18,8 +18,14 @@
     "url": "https://github.com/uzorjchibuzor/weather-app-js/issues"
   },
   "homepage": "https://github.com/uzorjchibuzor/weather-app-js#readme",
-  "dependencies": {
-    "webpack": "^4.28.4",
+  "devDependencies": {
+    "autoprefixer": "^9.4.4",
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.1",
     "webpack-cli": "^3.2.1"
   }
 }
