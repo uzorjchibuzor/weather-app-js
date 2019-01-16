@@ -1,0 +1,25 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Weather App written with JavaScript Using the Open Weather API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzorjchibuzor/weather-app-js.git"
+  },
+  "author": "Chibuzor Efedigbue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uzorjchibuzor/weather-app-js/issues"
+  },
+  "homepage": "https://github.com/uzorjchibuzor/weather-app-js#readme",
+  "dependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
