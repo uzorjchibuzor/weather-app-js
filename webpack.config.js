@@ -10,6 +10,17 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(png|svg|jpe?g|gif)$/,
+        use: [
+          {
+            loader: "url-loader",
+            options: {
+              name: 'images/[hash]-[name]-[ext]'
+            }
+          }
+        ]
+      },
+      {
         test: /\.(scss)$/,
         use: [
           {
