@@ -1,0 +1,50 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  background: no-repeat center center fixed;
+  background-size: cover;
+  padding: 100px;
+ 
+ .container {
+    width: 50%;
+    margin: auto auto;
+
+    button {
+      width: 100%;
+      margin: 10px auto auto auto;
+    }
+
+    .form-control {
+      margin: 15px 0;
+    }
+
+
+  .details-class {
+    min-height: 200px;
+    color: red;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  }
+}
+
+.cloudy {
+  background-image: url('../images/cloudy.jpg');
+  
+}
+
+.clear {
+  background-image: url('../images/clear.jpg');
+  
+}
+
+.rain {
+  background-image: url('../images/rain.jpg');
+  
+}
+
+.default {
+  background-image: url('../images/default.jpg');
+  
+}
